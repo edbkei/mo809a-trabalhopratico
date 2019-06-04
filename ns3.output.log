@@ -1,0 +1,197 @@
+Waf: Entering directory `/home/ubu01/workspace/bake/source/ns-3.29/build'
+Waf: Leaving directory `/home/ubu01/workspace/bake/source/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (40.926s)
+distanceToRx = 10
+simTime = 20
+0s Current harvested power = 0.0879023 W oldValue = 0
+Packet sent, and size = 200 pktCount= 10000 pktInterval = +1000000000.0ns
+0.000570066s Current remaining energy = 0.999583J oldValue = 1
+0.000570066s Total energy consumed by radio = 0.000466884J oldValue =0
+0.000954066s Current remaining energy = 0.999594J oldValue = 0.999583
+0.000954066s Total energy consumed by radio = 0.000489578J oldValue =0.000466884
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 0.000954066
+--
+1s Current harvested power = 0.0900605 W oldValue = 0.0879023
+1s Total energy harvested by harvester = 0.0900605 J oldValue = 0
+1s Current remaining energy = 0.27135J oldValue = 0.999594
+Packet sent, and size = 200 pktCount= 9999 pktInterval = +1000000000.0ns
+1s Current remaining energy = 0.27135J oldValue = 0.27135
+1s Total energy consumed by radio = 0.818708J oldValue =0.000489578
+1.00038s Current remaining energy = 0.271362J oldValue = 0.27135
+1.00038s Total energy consumed by radio = 0.818731J oldValue =0.818708
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 1.00038
+--
+1.00057s Current remaining energy = 0.271227J oldValue = 0.271362
+1.00095s Current remaining energy = 0.270947J oldValue = 0.271227
+1.22106s Total energy consumed by radio = 0.999467J oldValue =0.818731
+1.22106s Current remaining energy = 0.110501J oldValue = 0.270947
+1.33132s Current remaining energy = 0.120431J oldValue = 0.110501
+1.35598s Current remaining energy = 0.122652J oldValue = 0.120431
+2s Current remaining energy = 0.180653J oldValue = 0.122652
+2s Current harvested power = 0.0276296 W oldValue = 0.0900605
+2s Total energy harvested by harvester = 0.11769 J oldValue = 0.0900605
+Packet sent, and size = 200 pktCount= 9998 pktInterval = +1000000000.0ns
+2s Current remaining energy = 0.180653J oldValue = 0.180653
+2.00038s Current remaining energy = 0.180663J oldValue = 0.180653
+2.00057s Current remaining energy = 0.180668J oldValue = 0.180663
+2.00095s Current remaining energy = 0.180679J oldValue = 0.180668
+2.22106s Current remaining energy = 0.18676J oldValue = 0.180679
+3s Current harvested power = 0.060987 W oldValue = 0.0276296
+3s Total energy harvested by harvester = 0.178677 J oldValue = 0.11769
+3s Current remaining energy = 0.234265J oldValue = 0.18676
+Packet sent, and size = 200 pktCount= 9997 pktInterval = +1000000000.0ns
+4s Current remaining energy = 0.295252J oldValue = 0.234265
+4s Current harvested power = 0.00113641 W oldValue = 0.060987
+4s Total energy harvested by harvester = 0.179814 J oldValue = 0.178677
+Packet sent, and size = 200 pktCount= 9996 pktInterval = +1000000000.0ns
+5s Current remaining energy = 0.296389J oldValue = 0.295252
+5s Current harvested power = 0.0593717 W oldValue = 0.00113641
+5s Total energy harvested by harvester = 0.239185 J oldValue = 0.179814
+Packet sent, and size = 200 pktCount= 9995 pktInterval = +1000000000.0ns
+5.38186s Current remaining energy = 0.319061J oldValue = 0.296389
+5.38225s Current remaining energy = 0.319083J oldValue = 0.319061
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 5.38225
+--
+5.59196s Current remaining energy = 0.331534J oldValue = 0.319083
+5.77185s Current remaining energy = 0.342215J oldValue = 0.331534
+6s Current harvested power = 0.0981622 W oldValue = 0.0593717
+6s Total energy harvested by harvester = 0.337347 J oldValue = 0.239185
+6s Current remaining energy = 0.364611J oldValue = 0.342215
+Packet sent, and size = 200 pktCount= 9994 pktInterval = +1000000000.0ns
+6s Current remaining energy = 0.364611J oldValue = 0.364611
+6.00038s Current remaining energy = 0.364648J oldValue = 0.364611
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 6.00038
+--
+6.44562s Current remaining energy = 0.408354J oldValue = 0.364648
+7s Current harvested power = 0.0297473 W oldValue = 0.0981622
+7s Total energy harvested by harvester = 0.367095 J oldValue = 0.337347
+7s Current remaining energy = 0.424845J oldValue = 0.408354
+Packet sent, and size = 200 pktCount= 9993 pktInterval = +1000000000.0ns
+7s Current remaining energy = 0.424845J oldValue = 0.424845
+7.00038s Current remaining energy = 0.424856J oldValue = 0.424845
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 7.00038
+--
+7.51913s Current remaining energy = 0.440288J oldValue = 0.424856
+8s Current harvested power = 0.0784169 W oldValue = 0.0297473
+8s Total energy harvested by harvester = 0.445512 J oldValue = 0.367095
+8s Current remaining energy = 0.477996J oldValue = 0.440288
+Packet sent, and size = 200 pktCount= 9992 pktInterval = +1000000000.0ns
+8s Current remaining energy = 0.477996J oldValue = 0.477996
+8.00038s Current remaining energy = 0.478026J oldValue = 0.477996
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 8.00038
+--
+8.58405s Current remaining energy = 0.523796J oldValue = 0.478026
+9s Current harvested power = 0.0431852 W oldValue = 0.0784169
+9s Total energy harvested by harvester = 0.488697 J oldValue = 0.445512
+9s Current remaining energy = 0.541758J oldValue = 0.523796
+Packet sent, and size = 200 pktCount= 9991 pktInterval = +1000000000.0ns
+9s Current remaining energy = 0.541758J oldValue = 0.541758
+9.00038s Current remaining energy = 0.541775J oldValue = 0.541758
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 9.00038
+--
+9.66189s Current remaining energy = 0.570342J oldValue = 0.541775
+10s Current harvested power = 0.0852019 W oldValue = 0.0431852
+10s Total energy harvested by harvester = 0.573899 J oldValue = 0.488697
+10s Current remaining energy = 0.59915J oldValue = 0.570342
+Packet sent, and size = 200 pktCount= 9990 pktInterval = +1000000000.0ns
+10s Current remaining energy = 0.59915J oldValue = 0.59915
+10.0004s Current remaining energy = 0.599182J oldValue = 0.59915
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 10.0004
+--
+10.732s Current remaining energy = 0.661516J oldValue = 0.599182
+11s Current harvested power = 0.0704298 W oldValue = 0.0852019
+11s Total energy harvested by harvester = 0.644329 J oldValue = 0.573899
+11s Current remaining energy = 0.680393J oldValue = 0.661516
+Packet sent, and size = 200 pktCount= 9989 pktInterval = +1000000000.0ns
+11s Current remaining energy = 0.680393J oldValue = 0.680393
+11.0004s Current remaining energy = 0.68042J oldValue = 0.680393
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 11.0004
+--
+11.8312s Current remaining energy = 0.738932J oldValue = 0.68042
+12s Current harvested power = 0.0409949 W oldValue = 0.0704298
+12s Total energy harvested by harvester = 0.685323 J oldValue = 0.644329
+12s Current remaining energy = 0.745853J oldValue = 0.738932
+Packet sent, and size = 200 pktCount= 9988 pktInterval = +1000000000.0ns
+12s Current remaining energy = 0.745853J oldValue = 0.745853
+12.0004s Current remaining energy = 0.745869J oldValue = 0.745853
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 12.0004
+--
+12.9111s Current remaining energy = 0.783203J oldValue = 0.745869
+13s Current harvested power = 0.050725 W oldValue = 0.0409949
+13s Total energy harvested by harvester = 0.736048 J oldValue = 0.685323
+13s Current remaining energy = 0.787713J oldValue = 0.783203
+Packet sent, and size = 200 pktCount= 9987 pktInterval = +1000000000.0ns
+13s Current remaining energy = 0.787713J oldValue = 0.787713
+13.0004s Current remaining energy = 0.787733J oldValue = 0.787713
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 13.0004
+--
+13.9622s Current remaining energy = 0.836521J oldValue = 0.787733
+14s Current harvested power = 0.0234639 W oldValue = 0.050725
+14s Total energy harvested by harvester = 0.759512 J oldValue = 0.736048
+14s Current remaining energy = 0.837408J oldValue = 0.836521
+Packet sent, and size = 200 pktCount= 9986 pktInterval = +1000000000.0ns
+14s Current remaining energy = 0.837408J oldValue = 0.837408
+14.0004s Current remaining energy = 0.837417J oldValue = 0.837408
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 14.0004
+--
+15s Current harvested power = 0.0491597 W oldValue = 0.0234639
+15s Total energy harvested by harvester = 0.808672 J oldValue = 0.759512
+15s Current remaining energy = 0.886558J oldValue = 0.837417
+Packet sent, and size = 200 pktCount= 9985 pktInterval = +1000000000.0ns
+15s Current remaining energy = 0.886558J oldValue = 0.886558
+15.0004s Current remaining energy = 0.886576J oldValue = 0.886558
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 15.0004
+--
+16s Current harvested power = 0.0403678 W oldValue = 0.0491597
+16s Total energy harvested by harvester = 0.84904 J oldValue = 0.808672
+16s Current remaining energy = 0.926929J oldValue = 0.886576
+Packet sent, and size = 200 pktCount= 9984 pktInterval = +1000000000.0ns
+16s Current remaining energy = 0.926929J oldValue = 0.926929
+16.0004s Current remaining energy = 0.926944J oldValue = 0.926929
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 16.0004
+--
+16.9146s Current remaining energy = 0.963848J oldValue = 0.926944
+17s Current harvested power = 0.0920603 W oldValue = 0.0403678
+17s Total energy harvested by harvester = 0.9411 J oldValue = 0.84904
+17s Current remaining energy = 0.971713J oldValue = 0.963848
+Packet sent, and size = 200 pktCount= 9983 pktInterval = +1000000000.0ns
+17s Current remaining energy = 0.971713J oldValue = 0.971713
+17.0004s Current remaining energy = 0.971748J oldValue = 0.971713
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 17.0004
+--
+18s Current harvested power = 0.0112252 W oldValue = 0.0920603
+18s Total energy harvested by harvester = 0.952325 J oldValue = 0.9411
+18s Current remaining energy = 0.982969J oldValue = 0.971748
+Packet sent, and size = 200 pktCount= 9982 pktInterval = +1000000000.0ns
+18s Current remaining energy = 0.982969J oldValue = 0.982969
+18.0004s Current remaining energy = 0.982974J oldValue = 0.982969
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 18.0004
+--
+19s Current harvested power = 0.0813312 W oldValue = 0.0112252
+19s Total energy harvested by harvester = 1.03366 J oldValue = 0.952325
+19s Current remaining energy = 1.06427J oldValue = 0.982974
+Packet sent, and size = 200 pktCount= 9981 pktInterval = +1000000000.0ns
+19s Current remaining energy = 1.06427J oldValue = 1.06427
+19.0004s Current remaining energy = 1.0643J oldValue = 1.06427
+--
+Received one packet! Socket: 172.168.1.1 port: 49153 at time = 19.0004
+--
+End of simulation (20s) Total energy consumed by radio = 0.999434J
+End of simulation (20s) Total energy consumed by radio = 0.999467J
