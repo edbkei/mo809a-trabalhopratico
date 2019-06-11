@@ -8,4 +8,4 @@
 # 5. A partir da versão 5.4.1, as estatísticas podem ser obtidas diretamente, por duplo click, nos arquivos *.vec, *.sca e *.elog (este é obtido apenas quando se clica no botão de registro quando rodar o cenário)
 #
 # Observação a respeito do NS3
-# Ler as instruções do script test1.sh
+# Ler as instruções do script test4.sh. Basicamente, o test4.sh foi feito para evitar a repetição de se digitar nomes complicados de diretórios e parâmetros do comando trabprat.sh. É mais facil editar o arquivo test4.sh e entrar com os parâmetros necessários e rodar o testes NS3.
