@@ -1,5 +1,5 @@
 
-# execute ./run_trab.sh p1 p2 p3
+# execute ./runtrab.sh p1 p2 p3
 # p1 number of interactions for distance
 # p2 simulation time in seconds
 # p3 distance to Rx in meters
@@ -31,4 +31,4 @@ do
   
 done
 cd scratch
-python stat_trab.py
+python stattrab.py
