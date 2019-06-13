@@ -222,6 +222,11 @@ main (int argc, char *argv[])
   /***************************************************************************/
   YansWifiPhyHelper wifiPhy = YansWifiPhyHelper::Default ();
   //wifiPhy.SetPcapDataLinkType (WifiPhyHelper::DLT_IEEE802_11_RADIO);   ONLY FOR OFDMRATE12MBPS
+  wifiPhy.Set ("RxGain", DoubleValue (-10));
+  wifiPhy.Set ("TxGain", DoubleValue (1)); // offset + Prss
+  //wifiPhy.Set ("CcaMode1Threshold", DoubleValue (-82.0));
+
+  
 
   /** wifi channel **/
   YansWifiChannelHelper wifiChannel;
