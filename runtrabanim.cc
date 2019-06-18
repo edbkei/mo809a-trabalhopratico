@@ -65,6 +65,8 @@ ReceivePacket (Ptr<Socket> socket)
       if (packet->GetSize () > 0)
         {
           NS_LOG_UNCOND (PrintReceivedPacket (from));
+          //std::cout<<"Packets received = "<<PrintReceivedPacket (from)<<std::endl;
+
         }
     }
 }
@@ -135,6 +137,12 @@ TotalEnergyHarvested (double oldValue, double TotalEnergyHarvested)
    uint32_t nWifi = 1;
    double distanceToRx = 100.0;  // meters
    double simTime=15.0;    // seconds
+   double interval = 1;          // seconds
+  // Convert to time object
+   Time interPacketInterval = Seconds (interval);
+   uint32_t PacketSize = 200;   // bytes
+  // simulation parameters
+   uint32_t numPackets = 10000;  // number of packets to send
    CommandLine cmd;
    std::stringstream stream;
    cmd.AddValue ("nWifi", "Number of wifi STA devices", nWifi);
@@ -272,7 +280,18 @@ TotalEnergyHarvested (double oldValue, double TotalEnergyHarvested)
    Ipv4InterfaceContainer apInterface;
    apInterface = address.Assign (apDevices);
 
- 
+   //Packet trace
+   TypeId tid = TypeId::LookupByName ("ns3::UdpSocketFactory");
+   Ptr<Socket> recvSink = Socket::CreateSocket (wifiStaNodes.Get (0), tid);  // node 1, Destination
+   InetSocketAddress local = InetSocketAddress (Ipv4Address::GetAny (), 80);
+   recvSink->Bind (local);
+   recvSink->SetRecvCallback (MakeCallback (&ReceivePacket)); 
+
+   Ptr<Socket> source = Socket::CreateSocket (csmaNodes.Get (0), tid);    // node 0, Source
+   InetSocketAddress remote = InetSocketAddress (Ipv4Address::GetBroadcast (), 80);
+   source->SetAllowBroadcast (true);
+   source->Connect (remote);
+
    // Install applications
  
    UdpEchoServerHelper echoServer (9);
@@ -315,7 +334,15 @@ TotalEnergyHarvested (double oldValue, double TotalEnergyHarvested)
    anim.EnableIpv4RouteTracking ("runtrabanim.xml", Seconds (0), Seconds (5), Seconds (0.25)); //Optional
    anim.EnableWifiMacCounters (Seconds (0), Seconds (10)); //Optional
    anim.EnableWifiPhyCounters (Seconds (0), Seconds (10)); //Optional
+
+  /** simulation setup **/
+  // start traffic
+   Simulator::Schedule (Seconds (0.0), &GenerateTraffic, source, PacketSize,
+                       wifiStaNodes.Get (0), numPackets, interPacketInterval);
+
    Simulator::Run ();
+   double energyConsumed = energyModel->GetTotalEnergyConsumption();
+   std::cout<<"End of Simulation (00s) Total energy consumed by radio= "<<energyConsumed<<" J"<<std::endl;
    Simulator::Destroy ();
    return 0;
  }
